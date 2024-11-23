@@ -10,12 +10,89 @@ import Raw_Materials from '../views/Raw_Materials.vue';
 import EditarRaw_Material from '../components/Raw_Material/EditarRaw_Material.vue';
 import NewRaw_Material from '../components/Raw_Material/NewRaw_Material.vue';
 
+import Employees from '../views/Employees';
+import NewEmployee from '../components/Employee/NewEmployee.vue'
+import EditarEmployee from '../components/Employee/EditarEmployee.vue'
+
+
+import Pizza_ingredients from '../views/Pizza_ingredients';
+import NewPizza_ingredient from '../components/Pizza_ingredients/NewPizza_ingredient.vue'
+import EditarPizza_ingredient from '../components/Pizza_ingredients/EditarPizza_ingredient.vue'
+
+
+
+import Branches from '../views/Branches';
+import NewBranche from '../components/Branches/NewBranche.vue'
+import EditarBranche from '../components/Branches/EditarBranche.vue'
+
+
+
+
+
+
+
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
   },
+
+  {
+    path: '/employees',
+    name: 'Employees',
+    component: Employees
+  },
+
+  {
+    path: '/editar-employee/:id',
+    name: 'EditarEmployee',
+    component: EditarEmployee
+  },
+
+  {
+    path: '/add-employee/',
+    name: 'NewEmployee',
+    component: NewEmployee
+  },
+
+  {
+    path: '/pizza_ingredients',
+    name: 'Pizza_ingredients',
+    component: Pizza_ingredients
+  },
+
+  {
+    path: '/editar-pizza_ingredient/:id',
+    name: 'EditarPizza_ingredient',
+    component: EditarPizza_ingredient
+  },
+
+  {
+    path: '/add-pizza_ingredient/',
+    name: 'Newpizza_ingredient',
+    component: NewPizza_ingredient
+  },
+
+
+  {
+    path: '/branches',
+    name: 'Branches',
+    component: Branches
+  },
+
+  {
+    path: '/editar-branche/:id',
+    name: 'EditarBranche',
+    component: EditarBranche
+  },
+
+  {
+    path: '/add-branche/',
+    name: 'Newbranche',
+    component: NewBranche
+  },
+
   {
     path: '/pizza_sizes',
     name: 'Pizza_Sizes',
