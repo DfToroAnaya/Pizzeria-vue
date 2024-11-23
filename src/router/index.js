@@ -20,7 +20,6 @@ import NewPizza_ingredient from '../components/Pizza_ingredients/NewPizza_ingred
 import EditarPizza_ingredient from '../components/Pizza_ingredients/EditarPizza_ingredient.vue'
 
 
-
 import Branches from '../views/Branches';
 import NewBranche from '../components/Branches/NewBranche.vue'
 import EditarBranche from '../components/Branches/EditarBranche.vue'
