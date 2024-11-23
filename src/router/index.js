@@ -1,5 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/HomeView.vue';
+
+import Employees from '../views/Employees';
+import NewEmployee from '../components/Employee/NewEmployee.vue'
+import EditarEmployee from '../components/Employee/EditarEmployee.vue'
+
+
+
 
 const routes = [
   {
@@ -7,6 +14,27 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+
+  {
+    path: '/employees',
+    name: 'Employees',
+    component: Employees
+  },
+
+  {
+    path: '/editar-employee/:id',
+    name: 'EditarEmployee',
+    component: EditarEmployee
+  },
+
+  {
+    path: '/add-employee/',
+    name: 'NewEmployee',
+    component: NewEmployee
+  },
+
+
+
   {
     path: '/about',
     name: 'about',
