@@ -2,6 +2,9 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <router-link to="/pizza_sizes">Pizza Size</router-link>
+    <router-link to="/suppliers">supplier</router-link>
+    <router-link to="/raw_materials">Raw Materials</router-link>
   </nav>
   <router-view/>
 </template>
