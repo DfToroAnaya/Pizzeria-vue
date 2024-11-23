@@ -6,8 +6,6 @@ import {faBank, faBuilding, faPencil, faPhone, faPlus, faTag, faTrash, faUser} f
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
 import { createApp } from 'vue'
 
-import { createApp } from 'vue'
-
 import App from './App.vue'
 import router from './router'
 
