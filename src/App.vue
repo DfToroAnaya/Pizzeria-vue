@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/employees">Employess</router-link> |
+    <router-link to="/pizza_ingredients">Pizza ingredient</router-link> |
 
   </nav>
   <router-view/>

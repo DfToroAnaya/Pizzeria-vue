@@ -6,6 +6,13 @@ import NewEmployee from '../components/Employee/NewEmployee.vue'
 import EditarEmployee from '../components/Employee/EditarEmployee.vue'
 
 
+import Pizza_ingredients from '../views/Pizza_ingredients';
+import NewPizza_ingredient from '../components/Pizza_ingredients/NewPizza_ingredient.vue'
+import EditarPizza_ingredient from '../components/Pizza_ingredients/EditarPizza_ingredient.vue'
+
+
+
+
 
 
 const routes = [
@@ -33,6 +40,23 @@ const routes = [
     component: NewEmployee
   },
 
+  {
+    path: '/pizza_ingredients',
+    name: 'Pizza_ingredients',
+    component: Pizza_ingredients
+  },
+
+  {
+    path: '/editar-pizza_ingredient/:id',
+    name: 'EditarPizza_ingredient',
+    component: EditarPizza_ingredient
+  },
+
+  {
+    path: '/add-pizza_ingredient/',
+    name: 'Newpizza_ingredient',
+    component: NewPizza_ingredient
+  },
 
 
   {
