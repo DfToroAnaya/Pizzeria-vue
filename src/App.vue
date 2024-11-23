@@ -4,6 +4,7 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/employees">Employess</router-link> |
     <router-link to="/pizza_ingredients">Pizza ingredient</router-link> |
+    <router-link to="/branches">Branches</router-link> |
 
   </nav>
   <router-view/>

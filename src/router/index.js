@@ -12,6 +12,13 @@ import EditarPizza_ingredient from '../components/Pizza_ingredients/EditarPizza_
 
 
 
+import Branches from '../views/Branches';
+import NewBranche from '../components/Branches/NewBranche.vue'
+import EditarBranche from '../components/Branches/EditarBranche.vue'
+
+
+
+
 
 
 
@@ -58,6 +65,24 @@ const routes = [
     component: NewPizza_ingredient
   },
 
+
+  {
+    path: '/branches',
+    name: 'Branches',
+    component: Branches
+  },
+
+  {
+    path: '/editar-branche/:id',
+    name: 'EditarBranche',
+    component: EditarBranche
+  },
+
+  {
+    path: '/add-branche/',
+    name: 'Newbranche',
+    component: NewBranche
+  },
 
   {
     path: '/about',
